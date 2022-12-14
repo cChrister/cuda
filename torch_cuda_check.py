@@ -1,0 +1,11 @@
+import torch
+print(torch.cuda.is_available())
+print(torch.backends.cuda.is_built())
+print(torch.backends.cudnn.version())
+print(torch.backends.cudnn.is_available())
+print(torch.backends.cudnn.enabled)
+print('=====================================')
+print(f'Pytorch version {torch.__version__}')
+print(f'Pytorch CUDA {torch.version.cuda}')
+print(f'Pytorch cudnn {torch.backends.cudnn.version()}')
+print('=====================================')
